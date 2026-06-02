@@ -1,41 +1,82 @@
 
 https://github.com/user-attachments/assets/3aae6063-cce7-4b11-8be8-163a17e15d9d
 
-📊 Building an E-Commerce Sales Dashboard in Power BI
-I recently developed an E-Commerce Sales Dashboard using Power BI, transforming raw transactional data into meaningful business insights through interactive visualizations and data modeling.
+📊 E-Commerce Sales Dashboard | Power BI
+Project Overview
 
-🚀 Key Highlights
-Revenue Analysis ($105M)
-Quantity Sold Tracking (6M Units)
-Average Unit Price Analysis
-Customer Insights
-Top-Selling Products Analysis
+This project presents an interactive E-Commerce Sales Dashboard built using Power BI. The dashboard provides comprehensive insights into sales performance, customer behavior, product demand, and geographical distribution of sales.
+
+Features
+Revenue KPI Tracking
+Quantity Sold Analysis
+Average Unit Price Monitoring
+Monthly Sales Trend Analysis
+Customer Spending Insights
+Top Products Analysis
 Geographical Sales Distribution
-Year-over-Year (YoY) Growth Analysis
+Year-over-Year Growth Analysis
+Interactive Slicers and Filters
 
-🏗 Data Modeling
-Implemented an industry-standard Star Schema with:
-Fact Table (Sales Transactions)
-Customer Dimension
-Product Dimension
-Store Dimension
-Transaction Dimension
-Time Dimension
+Data Model
+The project follows a Star Schema architecture.
+Fact Table
+fact_table
+customer_key
+item_key
+payment_key
+quantity
+sales
+store_key
+time_key
+unit
+unit_price
 
-🛠 Tools Used
-Power BI
+Dimension Tables
+customer_dim
+customer_key
+item_dim
+item_key
+store_dim
+store_key
+Trans_dim
+payment_key
+bank_name
+trans_type
+time_dim
+time_key
+Date
+
+Dashboard KPIs
+Revenue
+Quantity Sold
+Average Unit Price
+Customer Insights
+Monthly Sales Trend
+Top 5 Products by Quantity Sold
+Geographic Sales Performance
+YoY Growth %
+
+Tools Used
+Power BI Desktop
 DAX
 Power Query
 Data Modeling
-Business Intelligence
+Excel/CSV Dataset
 
-📚 Key Learnings
-This project helped me strengthen my skills in:
-Data Analytics
-Dashboard Design
-DAX Calculations
-Data Modeling
+Skills Demonstrated
 Business Intelligence
+Data Analytics
+Data Visualization
+DAX Calculations
+Star Schema Design
+Dashboard Development
+
+Future Enhancements
+Customer Segmentation
+Profitability Analysis
+Forecasting
+Product Category Analysis
+RFM Analysis
 
 Acknowledgements:
 Special thanks to Freedom Oboh for his insightful Power BI tutorials and guidance, which played a significant role in my learning journey.
