@@ -7,7 +7,7 @@ The E-Commerce Sales Dashboard is an end-to-end Business Intelligence solution b
 
 Designed using a Star Schema Data Model, this project demonstrates industry-standard BI practices, including DAX calculations, data transformation, and dashboard storytelling to support data-driven decision-making.
 
-🎯 Business Problem
+🎯 Business Problem		  		    
 E-commerce businesses generate large volumes of transactional data daily. Without proper analysis, identifying sales trends, customer behavior, and growth opportunities becomes challenging.
 This dashboard helps stakeholders:
 Monitor overall business performance
