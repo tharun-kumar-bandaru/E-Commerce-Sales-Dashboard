@@ -2,12 +2,15 @@
 https://github.com/user-attachments/assets/3aae6063-cce7-4b11-8be8-163a17e15d9d
 
 📊 E-Commerce Sales Dashboard | Power BI
+
 📌 Project Overview
+
 The E-Commerce Sales Dashboard is an end-to-end Business Intelligence solution built using Power BI to analyze sales performance, customer behavior, product demand, and geographical distribution of sales. The dashboard transforms raw transactional data into actionable insights through interactive visualizations, KPI tracking, and advanced data modeling techniques.
 
 Designed using a Star Schema Data Model, this project demonstrates industry-standard BI practices, including DAX calculations, data transformation, and dashboard storytelling to support data-driven decision-making.
 
 🎯 Business Problem		  		    
+
 E-commerce businesses generate large volumes of transactional data daily. Without proper analysis, identifying sales trends, customer behavior, and growth opportunities becomes challenging.
 This dashboard helps stakeholders:
 Monitor overall business performance
@@ -26,25 +29,31 @@ Average Unit Price	$17.6
 Customer Insights	9.191K
 YoY Growth Analysis	Dynamic
 Geographical Analysis	Global
+
 ✨ Features
 📈 Sales Performance Analysis
 Revenue Monitoring
 Quantity Sold Tracking
 Average Unit Price Analysis
 Monthly Sales Trends
+
 👥 Customer Insights
 Customer Spending Analysis
 Top Customers Identification
 Customer Growth Monitoring
+
 📦 Product Analysis
 Top 5 Products by Quantity Sold
 Product Performance Comparison
+
 🌍 Geographic Analysis
 Country-wise Sales Distribution
 Interactive Global Sales Map
+
 📅 Time Intelligence
 Year-over-Year (YoY) Comparison
 Historical Trend Analysis
+
 🎛 Interactive Reporting
 Dynamic Filters
 Slicers
@@ -54,35 +63,65 @@ Responsive Visualizations
 🏗 Data Model Architecture
 This project follows a Star Schema Data Model consisting of one central fact table connected to multiple dimension tables.
 Fact Table
+
 fact_table
+
 Column Name
+
 customer_key
+
 item_key
+
 payment_key
+
 quantity
+
 sales
+
 store_key
+
 time_key
+
 unit
+
 unit_price
+
 Dimension Tables
+
 customer_dim
+
 Column
+
 customer_key
+
 item_dim
+
 Column
+
 item_key
+
 store_dim
+
 Column
+
 store_key
+
 time_dim
+
 Column
+
 time_key
+
 Date
+
 Trans_dim
+
 Column
+
 payment_key
+
 bank_name
+
 trans_type
 
 📐 Data Modeling Approach
