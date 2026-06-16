@@ -200,7 +200,7 @@ Customer Segmentation
 RFM Analysis
 Sales Forecasting
 Category Performance Dashboard
-Executive Summary Page
+Executive Summary Pages
 Advanced Drill-through Reports
 
 Acknowledgements:
